@@ -11,6 +11,7 @@ public class Main {
         }
         int minVal = findMin(arr);
         System.out.println(minVal);
+
     }
 
     private static int findMin(int[] arr) {
