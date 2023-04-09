@@ -13,7 +13,6 @@ public class FindAver {
         System.out.println(minVal);
     }
     private static int findaver(int[] arr) {
-        int ov;
         int s = 0;
         if (arr.length == 0) {
             throw new IllegalArgumentException("Array must not be empty.");
@@ -21,7 +20,7 @@ public class FindAver {
         for (int i = 0; i < arr.length; i++) {
             s = s + arr[i];
         }
-        ov = s/arr.length;
-        return ov;
+        return s/arr.length;
+
     }
 }
